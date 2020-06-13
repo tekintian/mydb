@@ -1,0 +1,32 @@
+{
+    "name": "tekintian/mydb",
+    "description": "安全，高新能的PHP mysql/mysqli数据库驱动类，支持主从，分库分表，sql注入防御等，High efficiently mysql mysqli driver, support master slave, muiti table data etc.",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": ["PHP mysql","mysqli driver","sqlinject safe","支持主从的mysql数据库驱动","安全mysql驱动", "High efficiently mysql driver", "mysql driver"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "TekinTian",
+            "email": "tekintian@gmail.com",
+            "homepage": "http://dev.tekin.cn/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/tekintian/mydb",
+        "issues": "https://github.com/tekintian/mydb/issues"
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+	"autoload": {
+		"psr-4": {
+            "tekintian\\mydb\\": "src"
+        }
+	}
+}
+
+
+
+
