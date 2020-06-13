@@ -150,7 +150,7 @@ $_config['security']['querysafe']['afullnote'] = '0';
 
 - DZ的数据库分库分表映射配置参考
 ~~~php
-// dz 的数据库map配置参考，
+
 for($i = 1; $i <= 100; $i++) {
 	if(isset($this->map['forum_thread'])) {
 		$this->map['forum_thread_'.$i] = $this->map['forum_thread'];
@@ -174,3 +174,8 @@ if(isset($this->map['common_member'])) {
 }
 
 ~~~
+
+
+
+
+

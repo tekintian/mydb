@@ -1,6 +1,6 @@
 <?php
 namespace tekintian\mydb\dirver;
-
+!defined('IN_MYDB') && exit('Access Denied'); 
 /**
  * mysqli 从服务器驱动
  */

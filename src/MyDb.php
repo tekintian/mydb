@@ -1,6 +1,6 @@
 <?php
 namespace tekintian\mydb;
-
+defined('IN_MYDB') or define('IN_MYDB', true);
 // 使用了compose 后会自动加载，所以下面的include 这里可以注释了
 // 数据异常类
 include_once __DIR__.'/DbException.php';
@@ -13,7 +13,7 @@ include_once __DIR__.'/MyDbSafe.php';
  * @Author: tekin
  * @Date:   2020-06-12 12:06:09
  * @Last Modified 2020-06-13
- * @Last Modified time: 2020-06-13 14:37:47
+ * @Last Modified time: 2020-06-13 15:53:16
  */
 
 class MyDb {
